@@ -30,6 +30,7 @@ input, select, textarea, button{
     font-size: 1rem;
     color: #8E5D52;
     border: 5px;
+    background-color: #FFF2E7;
 }
 .grupo::before, .grupo:after{
     display: table;
