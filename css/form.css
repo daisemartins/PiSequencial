@@ -34,6 +34,7 @@ input, select, textarea, button{
     background-color: #FFF2E7;
     padding-left: 10px;
     padding-right: 10px;
+    resize: none;
 }
 .grupo::before, .grupo:after{
     display: table;
