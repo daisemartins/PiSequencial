@@ -30,7 +30,10 @@ input, select, textarea, button{
     font-size: 1rem;
     color: #8E5D52;
     border: 5px;
+    border-radius: 5px;
     background-color: #FFF2E7;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .grupo::before, .grupo:after{
     display: table;
@@ -51,7 +54,6 @@ fieldset.grupo .campo{
     margin-right: 1em;
 }
 .campo input[type="email"], .campo select, .campo textarea{
-    padding: 0.2em;
     border: 1px solid #FFF2E7;
     box-shadow: 2px 2px 2px rgbs(0,0,0,0.2);
     display: block;
