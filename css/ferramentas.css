@@ -1,0 +1,35 @@
+table, th, td{
+    color: #ECD6C4;
+    padding: 20px 10px 20px 10px;
+    border: 1px solid;
+    border-collapse: collapse;
+    border-spacing: 3px;
+    text-align: center;
+}
+
+#titulo-table{
+    font-family: 'Sarala', sans-serif;
+    color: #ECD6C4;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.container{
+    margin: 50px;
+    
+}
+.vscode, .bootstrap{
+    height: 45px;
+    border-radius: 10px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.vscode:hover{
+    transform: scale(1.5);
+
+}
+.bootstrap:hover{
+    transform: rotateZ(360deg);
+
+}

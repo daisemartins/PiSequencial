@@ -42,6 +42,14 @@
             <label for="email"><strong>Email</strong></label>
             <input type="email" name="email" id="email"  placeholder="nome@exemplo.com" required>
         </div>
+        <div class="campo">
+            <label for="dataNascimento"><strong>Data de Nascimento</strong></label>
+            <input type="date" name="dataNascimento" id="dataNacimento">
+        </div>
+      <!--   <div class="campo">
+            <label for="tel">Infome o seu telefone </label>
+            <input type="tel" name="tel" id="tel" pattern="\d{2}() \d{5}-\d{4}$" Title="(19) 99999-9999" />
+        </div> -->
         <fieldset class="grupo">
             <div class="campo">
                 <label for="senha"><strong>Digite a sua senha</strong></label>
@@ -96,7 +104,7 @@
             <textarea name="experiencia" id="experiencia" cols="40" rows="6"></textarea>
         </div>
         <div class="campo">
-            <label for="arquivo"><strong>Anexe o seu currículo aqui:</strong></label>
+            <label for="arquivo"><strong>Escolha uma foto</strong></label>
             <input type="file" name="arquivo" id="arquivo">
         </div>
         <button class="btn" type="submit" onsubmit="">Enviar</button>
